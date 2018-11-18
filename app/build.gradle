@@ -12,7 +12,7 @@ buildscript {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.3"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
@@ -47,4 +47,5 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
+    implementation project(path: ':JokerLib')
 }
