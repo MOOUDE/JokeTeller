@@ -10,9 +10,14 @@ buildscript {
     }
 }
 
+
 android {
     compileSdkVersion 26
     buildToolsVersion '28.0.3'
+    
+        lintOptions {
+            abortOnError false
+        }
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
@@ -23,6 +28,9 @@ android {
         multiDexEnabled true
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+
     }
 
     buildTypes {

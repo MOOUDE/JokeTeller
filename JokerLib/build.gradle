@@ -1,8 +1,20 @@
 apply plugin: 'java-library'
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-}
+
+    repositories {
+        jcenter { url "http://jcenter.bintray.com/" }
+        maven { url 'http://download.crashlytics.com/maven' }
+    }
+    dependencies {
+
+        implementation fileTree(dir: 'libs', include: ['*.jar'])
+        implementation 'org.glassfish:javax.annotation:10.0-b28'
+        implementation group: 'javax.persistence', name: 'persistence-api', version: '1.0'
+
+        implementation group: 'javax.jdo', name: 'jdo-api', version: '3.0.1'
+
+
+    }
 
 sourceCompatibility = "7"
 targetCompatibility = "7"

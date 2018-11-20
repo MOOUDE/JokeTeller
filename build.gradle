@@ -3,6 +3,8 @@
 buildscript {
     repositories {
         jcenter()
+        maven { url 'http://download.crashlytics.com/maven' }
+        maven { url "http://dl.bintray.com/populov/maven" }
         google()
     }
     dependencies {

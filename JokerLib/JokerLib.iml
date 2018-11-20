@@ -27,5 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: javax.annotation-10.0-b28" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: persistence-api-1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jdo-api-3.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jta-1.1" level="project" />
   </component>
 </module>
